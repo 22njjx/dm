@@ -30,10 +30,17 @@
             margin-top: 20px;
             text-align: center;
         }
-        .links iframe {
-            width: 100%;
-            height: 600px;
-            border: none;
+        .links a {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .links a:hover {
+            background: #0056b3;
         }
     </style>
 </head>
@@ -47,13 +54,9 @@
             <p><strong>配件:</strong> 遥控器、安装支架、电源线。</p>
         </div>
         <div class="links">
-            <p><strong>说明书：</strong></p>
-            <!-- 嵌入说明书 PDF -->
-            <iframe src="https://dm35information.netlify.app/docs/manual.pdf" style="border: none;"></iframe>
-
-            <p><strong>规格书：</strong></p>
-            <!-- 嵌入规格书 PDF -->
-            <iframe src="https://dm35information.netlify.app/docs/specification.pdf" style="border: none;"></iframe>
+            <!-- 使用 Netlify 或 GitHub 的文件 URL -->
+            <a href="https://dm35information.netlify.app/docs/manual.pdf" target="_blank">📄 查看说明书</a>
+            <a href="https://dm35information.netlify.app/docs/specification.pdf" target="_blank">📄 查看规格书</a>
         </div>
     </div>
 </body>
