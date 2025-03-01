@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,43 +7,55 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-        }
-        header {
-            background-color: #333;
-            color: white;
+            margin: 20px;
             padding: 20px;
-            text-align: center;
+            background-color: #f4f4f4;
         }
         .container {
-            width: 80%;
+            max-width: 600px;
             margin: auto;
+            background: white;
             padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            color: #333;
-        }
-        .product-details {
-            margin-top: 20px;
+            text-align: center;
         }
         .product-details p {
-            font-size: 18px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .links {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .links a {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .links a:hover {
+            background: #0056b3;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>欢迎来到 DM35LE/S 电机页面</h1>
-    </header>
     <div class="container">
-        <h2>产品详情</h2>
+        <h1>DM35LE/S 电机</h1>
         <div class="product-details">
             <p><strong>产品名称:</strong> DM35LE/S 电机</p>
             <p><strong>产品描述:</strong> 高效节能的智能电动窗帘电机。</p>
             <p><strong>技术规格:</strong> 电压：220V，功率：30W，速度：0.5m/s</p>
             <p><strong>配件:</strong> 遥控器、安装支架、电源线。</p>
+        </div>
+        <div class="links">
+            <a href="docs/说明书.pdf" target="_blank">📄 查看说明书</a>
+            <a href="docs/规格书.pdf" target="_blank">📄 查看规格书</a>
         </div>
     </div>
 </body>
