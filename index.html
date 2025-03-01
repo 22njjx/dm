@@ -3,58 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DM35LE/S 电机</title>
+    <title>DM45EAF/S 电机</title>
     <style>
+        /* 环保主题背景颜色 */
+
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            background-color: #eef7ec; /* 淡绿色背景 */
+            margin: 0;
+            padding: 0;
         }
+
+        /* 页面容器 */
         .container {
-            max-width: 600px;
-            margin: auto;
+            max-width: 900px;
+            margin: 50px auto;
             background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
         }
+
         h1 {
             text-align: center;
+            color: #2d5c2e; /* 自然绿色 */
+            font-size: 36px;
+            font-weight: bold;
         }
-        .product-details p {
-            font-size: 16px;
-            line-height: 1.5;
-        }
-        .links {
-            margin-top: 20px;
+
+        h2 {
+            color: #2d5c2e;
+            font-size: 24px;
+            margin-bottom: 15px;
             text-align: center;
         }
-        .links a {
+
+        .section {
+            margin-top: 30px;
+        }
+
+        .section a {
             display: block;
-            margin: 10px 0;
-            padding: 10px;
-            background: #007BFF;
+            text-align: center;
+            color: #fff;
+            background-color: #2d5c2e; /* 自然绿色按钮 */
+            padding: 15px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+
+        .section a:hover {
+            background-color: #3a7d45; /* 深绿色 */
+        }
+
+        .links {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 18px;
+            background-color: #007BFF;
             color: white;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 8px;
+            font-size: 18px;
         }
+
         .links a:hover {
-            background: #0056b3;
+            background-color: #0056b3;
         }
+
+        .section p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #444;
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>DM35LE/S 电机</h1>
-        <div class="product-details">
-            <p><strong>产品名称:</strong> DM35LE/S 电机</p>
-            <p><strong>产品描述:</strong> 高效节能的智能电动窗帘电机。</p>
-            <p><strong>技术规格:</strong> 电压：220V，功率：30W，速度：0.5m/s</p>
-            <p><strong>配件:</strong> 遥控器、安装支架、电源线。</p>
+        <h1>DM45EAF/S 电机</h1>
+
+        <!-- 模块 1：常规参数 -->
+        <div class="section">
+            <h2>常规参数</h2>
+            <p>查看电机的常规参数，例如功率、速度等。</p>
+            <a href="parameters.html" target="_blank">📄 查看详细参数</a>
         </div>
+
+        <!-- 模块 2：常规功能 -->
+        <div class="section">
+            <h2>常规功能</h2>
+            <p>探索电机的常规功能。</p>
+            <a href="#" target="_blank">📄 查看常规功能</a>
+        </div>
+
+        <!-- 模块 3：API 控制功能 -->
+        <div class="section">
+            <h2>API 控制功能</h2>
+            <p>支持远程控制，适用于智能家居系统。</p>
+            <a href="#" target="_blank">📄 查看 API 控制功能</a>
+        </div>
+
+        <!-- 模块 4：控制系统 -->
+        <div class="section">
+            <h2>控制系统</h2>
+            <p>描述电机的控制系统功能和设置。</p>
+            <a href="#" target="_blank">📄 查看控制系统</a>
+        </div>
+
+        <!-- 模块 5：配件 -->
+        <div class="section">
+            <h2>配件</h2>
+            <p>电机配件信息。</p>
+            <a href="#" target="_blank">📄 查看配件详情</a>
+        </div>
+
+        <!-- 查看说明书和规格书链接 -->
         <div class="links">
-            <!-- 使用 Netlify 或 GitHub 的文件 URL -->
             <a href="https://dm35information.netlify.app/docs/manual.pdf" target="_blank">📄 查看说明书</a>
             <a href="https://dm35information.netlify.app/docs/specification.pdf" target="_blank">📄 查看规格书</a>
         </div>
