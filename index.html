@@ -6,7 +6,6 @@
     <title>DM45EAF/S 电机</title>
     <style>
         /* 环保主题背景颜色 */
-
         body {
             font-family: 'Arial', sans-serif;
             background-color: #eef7ec; /* 淡绿色背景 */
@@ -84,6 +83,21 @@
             text-align: center;
         }
 
+        /* 图片展示 */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .image-container img {
+            width: 200px; /* 可以根据需要调整图片的大小 */
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
     </style>
 </head>
 <body>
@@ -100,29 +114,34 @@
         <!-- 模块 2：常规功能 -->
         <div class="section">
             <h2>常规功能</h2>
-            <p>探索电机的常规功能。</p>
-            <a href="#" target="_blank">📄 查看常规功能</a>
+            <p>查看电机的常规功能。</p>
+            <a href="regular_features.html" target="_blank">📄 查看常规功能</a>
         </div>
 
-        <!-- 模块 3：API 控制功能 -->
+        <!-- 模块 3：APP 控制功能 -->
         <div class="section">
-            <h2>API 控制功能</h2>
-            <p>支持远程控制，适用于智能家居系统。</p>
-            <a href="#" target="_blank">📄 查看 API 控制功能</a>
+            <h2>APP 控制功能</h2>
+            <p>查看电机的 APP 控制功能。</p>
+            <a href="app_control_features.html" target="_blank">📄 查看 APP 控制功能</a>
         </div>
 
-        <!-- 模块 4：控制系统 -->
+        <!-- 模块 4：控制系统（显示图片）-->
         <div class="section">
             <h2>控制系统</h2>
-            <p>描述电机的控制系统功能和设置。</p>
-            <a href="#" target="_blank">📄 查看控制系统</a>
+            <p>电机的控制系统，如风日传感器和单通道发射器。</p>
+            <div class="image-container">
+                <img src="https://dm35information.netlify.app/images/control system1.png" alt="control system1" />
+
+            </div>
         </div>
 
-        <!-- 模块 5：配件 -->
+        <!-- 模块 5：配件（显示图片）-->
         <div class="section">
             <h2>配件</h2>
-            <p>电机配件信息。</p>
-            <a href="#" target="_blank">📄 查看配件详情</a>
+            <p>电机的配件，如遥控器、安装支架等。</p>
+            <div class="image-container">
+                <img src="https://dm35information.netlify.app/images/accessory1.png" alt="Accessory 1" />
+            </div>
         </div>
 
         <!-- 查看说明书和规格书链接 -->
